@@ -1,0 +1,748 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+;
+}
+
+.div1{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(26, 26, 26,0.7);
+    position: fixed;  
+    padding: 0;
+  margin: 0;
+  list-style: none; 
+  justify-content: space-around;
+  z-index: 3;
+}
+
+
+#img1
+{
+position: absolute;
+display: inline-block;
+margin-right:10px;
+margin-left: 1100px;
+margin-top: 2px;
+z-index: 1;
+border-radius: 10px;
+}
+
+
+#img2
+{
+position: absolute;
+display: inline-block;
+margin-right:10px;
+margin-left: 270px;
+margin-top: 20px;
+z-index: 1;
+border-radius: 10px;
+
+}
+
+
+#img3
+{
+position: absolute;
+display: inline-block;
+margin-right:10px;
+margin-left: 100px;
+margin-top: 15px;
+border-radius: 20px;
+
+}
+
+#img5{
+    position: absolute;
+    z-index: 2;
+    margin-left: -950px;
+    margin-top: 405px;
+    margin-right:20px;
+}
+
+
+#img6{
+    position: absolute;
+    z-index: 2;
+    margin-left: -350px;
+    margin-top: 2020px;
+    margin-right:20px;
+}
+
+#img7{
+    position: absolute;
+    z-index: 2;
+    margin-left: -700px;
+    margin-top: 2020px;
+    margin-right:20px;
+}
+
+
+#img8{
+    position: absolute;
+    z-index: 2;
+    margin-left: -1099px;
+    margin-top: 2020px;
+    margin-right:2000px;
+}
+
+
+#img9{
+    position: absolute;
+    z-index: 2;
+    margin-left: 700px;
+    margin-top: -100px;
+    margin-right:2000px;
+}
+
+
+#img10{
+    position: absolute;
+    z-index: 2;
+    margin-left: 450px;
+    margin-top: -100px;
+    margin-right:2000px;
+}
+
+
+#img11{
+    position: absolute;
+    z-index: 2;
+    margin-left: 1000px;
+    margin-top: 50px;
+    margin-right:2000px;
+}
+
+
+#img12{
+    position: absolute;
+    z-index: 2;
+    margin-left: 650px;
+    margin-top: 55px;
+    margin-right:2000px;
+}
+
+
+#img13{
+    position: absolute;
+    z-index: 2;
+    margin-left:350px;
+    margin-top: 55px;
+    margin-right:2000px;
+}
+
+
+
+#img14{
+    position: absolute;
+    z-index: 1;
+    margin-left:1200px;
+    margin-top: 20px;
+    margin-right:2000px;
+}
+
+
+#img15{
+    position: absolute;
+    z-index: 1;
+    margin-left:1140px;
+    margin-top: 20px;
+    margin-right:2000px;
+}
+
+
+#img16{
+    position: absolute;
+    z-index: 1;
+    margin-left:1070px;
+    margin-top: 20px;
+    margin-right:2000px;
+}
+
+
+#img17{
+    position: absolute;
+    z-index: 1;
+    margin-left:1000px;
+    margin-top: 20px;
+    margin-right:2000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+position: fixed;
+top: 0;
+margin-right: 50px;
+margin-left: 520px;
+
+}
+
+li{
+  float: right;
+}
+
+li a {
+display:block;
+text-decoration: none;
+color: white;
+font-size: 16px;
+margin-right: -2px;
+font-weight: bold;
+font-family: 'Droid Arabic Kufi';
+text-align: center;
+padding: 30px 16px;
+
+}
+
+a:hover{
+    color: rgb(204, 204, 204);
+    text-decoration: none;
+
+}
+
+#login{
+position: absolute;
+display: inline-block;
+margin-right:10px;
+margin-left: 175px;
+z-index: 1;
+border-radius: 10px;
+text-decoration: none;
+color: white;
+padding: 19px 16px;
+font-weight: bold;
+
+}
+
+#login:hover{
+    color: rgb(204, 204, 204);
+}
+
+.badge{
+    background-color: rgb(72, 243, 72);
+    border-radius: 2px;
+    position: absolute;
+    margin-left: 155px;
+    margin-top: 22px;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+    width: 30px;
+
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+    position: absolute;
+    z-index: 1;
+    margin-top: -250px;
+    text-align: center;
+    margin-left:300px;
+    font-size: 45px;
+    color: white;
+}
+
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+    position: absolute;
+    z-index: 1;
+    margin-top: -170px;
+    text-align: center;
+    color: white;
+    margin-left:350px;
+    font-size: 20px;
+}
+
+.div3{
+    position: absolute;
+      background-color: rgb(172, 99, 240);
+      width: 40px;
+      height: 60px;
+      border-radius: 5px;
+      margin-top: -115px;
+      margin-left:400px;
+      z-index: 2;
+}
+
+input{
+    padding: 10PX;
+    text-align: center;
+    width: 700px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 5px;
+    border-style: none;
+    position: absolute;
+    z-index: 1;
+    margin-top: 390px;
+    margin-left:-910px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+    position: absolute;
+    z-index: 1;
+    margin-top: 50px;
+    text-align: center;
+    margin-left:300px;
+    font-size: 45px;
+    color:rgb(64, 64, 64);
+    font-weight:500;
+
+}
+
+#how{
+  position: absolute;
+    z-index: 1;
+    margin-top: 1800px;
+    text-align: center;
+    margin-left:390px;
+    font-size: 45px;
+    color:rgb(34, 33, 33);
+    font-weight:500;
+}
+
+div.gallery {
+  border-style: none;
+  border-radius: 55px;
+
+}
+
+div.gallery:hover {
+  background-color:rgb(204, 190, 190) ;
+  filter: brightness(0.75);
+  visibility: visible;
+  
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-size: 25px;
+  background-color: rgb(95, 92, 92);
+  border-radius: 7px;
+}
+
+div.desc:hover{
+    color:white;
+    font-weight: bold;
+    object-fit: cover;
+
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+#ch{
+  position: absolute;
+    z-index: 1;
+    margin-top: 1950px;
+    text-align: right;
+    margin-left:1020px;
+    font-size: 20px;
+    color:rgb(34, 33, 33);
+    font: weight 50px;;
+
+
+}
+
+#fill{
+  position: absolute;
+    z-index: 1;
+    margin-top: 1950px;
+    text-align: right;
+    margin-left:600px;
+    font-size: 20px;
+    color:rgb(34, 33, 33);
+    font: weight 50px;;
+
+}
+
+#offer{
+  position: absolute;
+    z-index: 1;
+    margin-top: 1950px;
+    text-align: right;
+    margin-left:250px;
+    font-size: 20px;
+    color:rgb(34, 33, 33);
+    font: weight 50px;
+}
+
+#join{
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+    position: absolute;
+    z-index: 1;
+    margin-top: 2500px;
+    text-align: center;
+    margin-left:500px;
+    font-size: 45px;
+    color:rgb(39, 38, 38);
+    font-weight:500;
+}
+
+#btn1{
+  margin-top: 2600px;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  margin-left:-880px;
+  font-size: 20px;
+  padding: 5px;
+  background-color: blueviolet;
+  border-style: none;
+  color: white;
+  width: 350px;
+  height: 80px;
+  border-radius: 10px;
+
+}
+
+#btn1:hover{
+  background-color: rgb(107, 14, 194);
+  color: black;
+}
+
+#mod{
+  position: absolute;
+    z-index: 1;
+    margin-top: 2750px;
+    text-align: right;
+    margin-left:1080px;
+    font-size: 20px;
+    color:rgb(34, 33, 33);
+    font: weight 50px;;
+
+}
+
+#trust{
+  position: absolute;
+    z-index: 1;
+    margin-top: 2750px;
+    text-align: right;
+    margin-left:850px;
+    font-size: 20px;
+    color:rgb(34, 33, 33);
+    font: weight 50px;;
+
+}
+
+#price{
+  position: absolute;
+    z-index: 1;
+    margin-top: 2750px;
+    text-align: right;
+    margin-left:550px;
+    font-size: 20px;
+    color:rgb(34, 33, 33);
+    font: weight 50px;;
+
+
+}
+
+#rev{
+  position: absolute;
+    z-index: 1;
+    margin-top: 2750px;
+    text-align: right;
+    margin-left:150px;
+    font-size: 20px;
+    color:rgb(34, 33, 33);
+    font: weight 50px;
+}
+
+#mod2{
+  position: absolute;
+    z-index: 1;
+    margin-top: 2800px;
+    text-align: right;
+    margin-left:1050px;
+    font-size: 20px;
+    color:rgb(34, 33, 33);
+  font-weight: 100px;   
+  font-size: 18px;
+  color: rgb(95, 93, 93);
+
+}
+
+#trust2{
+  position: absolute;
+    z-index: 1;
+    margin-top: 2800px;
+    text-align: right;
+    margin-left:800px;
+    font-size: 20px;
+    color:rgb(34, 33, 33);
+  font-weight: 100px;   
+  font-size: 18px;
+  color: rgb(95, 93, 93);
+
+}
+
+#price2{
+  position: absolute;
+    z-index: 1;
+    margin-top: 2820px;
+    text-align: right;
+    margin-left:450px;
+    font-size: 20px;
+    color:rgb(34, 33, 33);
+  font-weight: 100px;   
+  font-size: 18px;
+  color: rgb(95, 93, 93);
+
+}
+
+
+#rev2{
+  position: absolute;
+    z-index: 1;
+    margin-top: 2820px;
+    text-align: right;
+    margin-left:80px;
+    font-size: 20px;
+    color:rgb(34, 33, 33);
+  font-weight: 100px;   
+  font-size: 18px;
+  color: rgb(95, 93, 93);
+
+}
+
+#btn2{
+
+  margin-top: 2990px;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  margin-left:-780px;
+  font-size: 15px;
+  padding: 5px;
+  background-color: rgba(182, 179, 179, 0.9);
+  border-style: none;
+  color: white;
+  width: 150px;
+  height: 50px;
+  color: black;
+
+}
+
+#btn2:hover{
+
+  background-color: rgb(107, 14, 194);
+  color: white;
+
+
+}
+
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 30%;
+    margin: auto;
+  }
+
+
+  .container{
+    position: absolute;
+    margin-top: 2800px;
+    margin-left:50px;
+
+  }
+
+  #purble{
+    width: 100%;
+    height: 350px;
+    background-color: rgba(84, 22, 92, 0.877);
+    padding: 0;
+  margin: 0;
+  list-style: none; 
+  justify-content: space-around;
+  margin-top: 3500px;
+  }
+
+#load{
+  position: absolute;
+    z-index: 1;
+    margin-top: -300px;
+    text-align: center;
+    margin-left:200px;
+    font-size: 45px;
+    color:rgb(34, 33, 33);
+    font-weight:500;
+    color: white;
+}
+
+#mail{
+
+  position: absolute;
+    z-index: 1;
+    margin-top: 130px;
+    text-align: center;
+    margin-left:975px;
+    font-size: 20px;
+    color:rgb(34, 33, 33);
+    font-weight:500;
+    color: black;
+
+
+}
+
+
+#tele{
+  position: absolute;
+    z-index: 1;
+    margin-top: 130px;
+    text-align: center;
+    margin-left:650px;
+    font-size: 20px;
+    color:rgb(34, 33, 33);
+    font-weight:500;
+    color: black;
+
+}
+
+
+#loc{
+  position: absolute;
+    z-index: 1;
+    margin-top: 130px;
+    text-align: center;
+    margin-left:350px;
+    font-size: 20px;
+    color:rgb(34, 33, 33);
+    font-weight:500;
+    color: black;
+
+}
+
+#mail2{
+  position: absolute;
+    z-index: 1;
+    margin-top: 170px;
+    text-align: center;
+    margin-left:975px;
+    font-size: 15px;
+    color:rgb(34, 33, 33);
+    font-weight:500;
+    color: rgb(119, 107, 107);
+
+
+}
+
+
+#tele2{
+  position: absolute;
+    z-index: 1;
+    margin-top: 160px;
+    text-align: center;
+    margin-left:620px;
+    font-size: 15px;
+    color:rgb(34, 33, 33);
+    font-weight:500;
+    color: rgb(119, 107, 107);
+}
+
+
+#loc2{
+
+  position: absolute;
+    z-index: 1;
+    margin-top: 170px;
+    text-align: center;
+    margin-left:180px;
+    font-size: 15px;
+    font-weight:500;
+    color: rgb(119, 107, 107);
+
+}
+
+
+#ft{
+  width: 100%;
+    height: 80px;
+    background-color: rgb(39, 37, 37);
+    padding: 0;
+  margin: 0;
+  list-style: none; 
+  justify-content: space-around;
+  margin-top: 320px;
+
+}
+
+#ftp{
+  position: absolute;
+    z-index: 1;
+    margin-top: 30px;
+    text-align: center;
+    margin-left:100px;
+    font-size: 15px;
+    font-weight:200;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
